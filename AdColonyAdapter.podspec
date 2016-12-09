@@ -15,8 +15,4 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-ObjC'
   s.dependency 'AdColony'
   s.dependency 'Google-Mobile-Ads-SDK'
-  s.pod_target_xcconfig = {
-    'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/AdColony/**',
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
-  }
 end
