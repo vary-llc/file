@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   }
   
   s.dependency = 'AdColony'
-  s.dependency = 'Google-Mobile-Ads-SDK'
   s.vendored_libraries = '**/*.a'
   s.source_files = '**/*.h'
   s.compiler_flags = '-ObjC'
