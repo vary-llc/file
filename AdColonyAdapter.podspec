@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :flatten => true
   }
   
-  s.vendored_libraries = 'AdColonyAdapter*/*.a'
-  s.source_files = 'AdColonyAdapter*/*.h'
+  s.vendored_libraries = '**/*.a'
+  s.source_files = '**/*.h'
   s.compiler_flags = '-ObjC'
 end
