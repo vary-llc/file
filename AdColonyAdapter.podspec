@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     :http => 'https://s3.amazonaws.com/tools-storage/google-adapter/release/AdColonyAdapter.zip',
     :flatten => true
   }
-  
+ 
   s.dependency = 'AdColony'
   s.vendored_libraries = '**/*.a'
   s.source_files = '**/*.h'
