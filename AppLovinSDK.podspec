@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     :http => 'https://www.applovin.com/downloadSDK?type=ios',
     :flatten => true
   }
-  s.frameworks   = 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit'
+  s.frameworks = 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit'
   s.weak_frameworks = 'AdSupport', 'WebKit'
   s.vendored_frameworks = '**/*.framework'
   # s.vendored_libraries = '**/*.a'
