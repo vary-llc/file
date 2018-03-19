@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'AdGenerationSDK'
+  s.name         = 'ADG-AdMobMediation'
   s.version      = '2.1.3'
   s.summary = 'Ad Generation SDK.'
   s.homepage = 'https://github.com/AdGeneration/sdk/wiki'
