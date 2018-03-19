@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'AdGeneration-AdMobAdapter'
+  s.name         = 'AdGeneration-AdMob'
   s.version      = '1.0.0'
   s.summary = 'Ad Generation AdMobAdapter' 
   s.homepage = 'https://github.com/AdGeneration/sdk/wiki'
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.vendored_libraries = '**/*.a'
   s.source_files = '**/*.h'
   s.dependency 'AdGeneration'
+  s.dependency 'Google-Mobile-Ads-SDK'
 end
