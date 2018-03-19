@@ -5,11 +5,9 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AdGeneration/sdk/wiki'
   s.author = 'AdGeneration'
   s.source = {
-    :http => 'https://github.com/AdGeneration/ADG-AdMobAdapter-iOS-SDK/releases/download/1.0.0/ADGAdMob.framework.zip',
-    :flatten => true
+    :http => 'https://github.com/AdGeneration/ADG-AdMobAdapter-iOS-SDK/releases/download/1.0.0/ADGAdMob.framework.zip'
   }
-  s.vendored_libraries = '**/*.a'
-  s.source_files = '**/*.h'
+  s.vendored_frameworks = 'ADGAdMob.framework'
   s.dependency 'AdGeneration'
   s.dependency 'Google-Mobile-Ads-SDK'
 end
