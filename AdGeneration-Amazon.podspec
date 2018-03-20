@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AdGeneration/sdk/wiki'
   s.author = 'AdGeneration'
   s.source = {
-    :http => 'https://s3-ap-northeast-1.amazonaws.com/ad-generation-adg/files/sdk/aman_sdk_ios_2.2.15.1.zip'
+    :http => 'https://s3-ap-northeast-1.amazonaws.com/ad-generation-adg/files/sdk/aman_sdk_ios_2.2.15.1.zip',
+    :flatten => true
   }
   s.vendored_frameworks = 'ADGAmazonAd.framework'
   s.dependency 'AdGeneration'
