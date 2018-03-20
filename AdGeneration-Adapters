@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'FBAudienceNetwork'
   s.dependency 'AmazonAd', '~> 2.2'
-  s.dependency 'AppVadorSDK', :spec=> 'https://raw.githubusercontent.com/yt-app/file/master/AppVadorSDK.podspec'
 end
