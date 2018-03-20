@@ -4,15 +4,7 @@ Pod::Spec.new do |s|
   s.summary = 'Ad Generation Adapters' 
   s.homepage = 'https://github.com/AdGeneration/sdk/wiki'
   s.author = 'AdGeneration'
-  s.source = {
-    :http => 'https://github.com/AdGeneration/ADG-AdMobAdapter-iOS-SDK/releases/download/1.0.0/ADGAdMob.framework.zip'
-  }
-  s.source = {
-    :http => 'https://s3-ap-northeast-1.amazonaws.com/ad-generation-adg/files/sdk/aman_sdk_ios_2.2.15.1.zip'
-  }
-  s.vendored_frameworks = 'ADGAdMob.framework', 'ADGAmazonAd.framework'
-  s.dependency 'AdGeneration'
-  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'AdGeneration-Admob', :podspec => 'https://raw.githubusercontent.com/yt-app/file/master/AdGeneration-AdMob.podspec'
+  s.dependency 'AdGeneration-Amazon', :podspec => 'https://raw.githubusercontent.com/yt-app/file/master/AdGeneration-Amazon.podspec'
   s.dependency 'FBAudienceNetwork'
-  s.dependency 'AmazonAd', '~> 2.2'
 end
