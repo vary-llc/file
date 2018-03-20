@@ -7,7 +7,10 @@ Pod::Spec.new do |s|
   s.source = {
     :http => 'https://github.com/AdGeneration/ADG-AdMobAdapter-iOS-SDK/releases/download/1.0.0/ADGAdMob.framework.zip'
   }
-  s.vendored_frameworks = 'ADGAdMob.framework'
+  s.source = {
+    :http => 'https://s3-ap-northeast-1.amazonaws.com/ad-generation-adg/files/sdk/aman_sdk_ios_2.2.15.1.zip'
+  }
+  s.vendored_frameworks = 'ADGAdMob.framework', 'ADGAmazonAd.framework'
   s.dependency 'AdGeneration'
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'FBAudienceNetwork'
